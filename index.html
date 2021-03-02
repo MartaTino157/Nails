@@ -11,13 +11,18 @@
 	
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<nav class="navbar navbar-expand-lg navbar-light bg-white"> 
+		<!-- navbar-expand-lg line 4054 -->
+		<!-- navbar-light line 4151 -->
+		<!-- bg-white line 7285 -->
 		<div class="container-fliud" style="display: contents;">
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false">
 				<span class="navbar-toggler-icon"></span>
+				<!-- navbar-toggler line 3952 -->
 			</button>
 			<div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
 				<ul class="navbar-nav">
+					<!-- navbar-nav line 3933 -->
 					<li class="nav-item">
 						<a  class="nav-link" aria-current="page" href="#">Обо мне</a>
 					</li>
@@ -39,25 +44,32 @@
 	</nav>
 	<header>
 		<div class="row">
-			<div class="col-md-6">
-				<h1>Большой и красивый заголовок</h1>
-				<div class="head">
-					<p>
-						Место для небольшого объяснения (рекламного слогана)- кто мы, о чем сайт и зачем мы все это затеяли. Что-то особенное, что может заинтересовать за пару фраз. 
-					</p>
-					<button>Подробнее</button>
-					<button>Прайс-лист</button>
-				</div>
+			<div class="col-md-4">
 			</div>
-			<div class="col-md-6">
-				<div>
-					<img class="cover" src="images/Screenshot_2-5.jpg">
+			<div class="col-md-8">
+				<div class="cover">
+					<div class="main-header">
+						<h1>Большой и красивый заголовок</h1>
+						<p>
+							Место для небольшого объяснения (рекламного слогана)- кто мы, о чем сайт и зачем мы все это затеяли. Что-то особенное, что может заинтересовать за пару фраз. 
+						</p>
+						<button type="button">Подробнее</button>
+						<button type="button">Прайс-лист</button>
+					</div>
+					
 				</div>
 			</div>
 		</div>
 	</header>
-	<div class="container">
-		<section class="about">
+	<!-- <header>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="cover2">
+				</div>
+		</div>
+	</header> -->
+	<section class="about">
+		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
 					<img class="rounded-circle" src="images/me.jpg" width="350" height="350">
@@ -68,8 +80,9 @@
 					Училась я в Питербурге, работаю не одну тысячу лет. За все время никому еще пальцев не отрезала, так что, приходите, не стесняйтесь. Будьте уверены, что ваши ручки/ножки в надежных руках. И пусть все девченки на деревне обзавидуются. И т.д в том же духе)))</p>
 				</div>
 			</div>
-		</section>
-	</div>
+		</div>
+	</section>
+		
 	<section class="service">
 		<div class="row">
 			<div class="col-md-6">
@@ -111,10 +124,9 @@
 			<img class="cap-5" src="images/capture_5.jpg">
 			<img class="cap-6" src="images/capture_6.jpg">
 			<img class="cap-7" src="images/capture_7.jpeg">
-		</div>
-		
+		</div>	
 	</section>
-	<section class="contact">
+	<!--<section class="contact">
 		<div class="cont-fliud">
 			<div class="row">
 				<div class="col-md-6">
@@ -162,7 +174,7 @@
 	</section>
 	<section class="the-end">
 		<div>
-			<!-- <img src="images/capture_7.jpeg"> -->
+			<img src="images/capture_7.jpeg">
 
 			<div class="end-card">
 				<h2>Жду вас с нетерпением!</h2>
@@ -170,7 +182,7 @@
 	</div>
 	</section>
 	
-	<footer></footer>
+	<footer></footer> -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
 </html>
