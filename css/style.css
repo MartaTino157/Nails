@@ -1,3 +1,11 @@
+/*
+Cormorant Infant 
+Crimson Text
+Bellota
+Amarante
+1920
+*/
+
 nav {
 	margin-top: 50px;
 	font-family: Cormorant Infant;
@@ -88,36 +96,14 @@ img {
 	background: linear-gradient(to right , rgba(71, 59, 63), rgba(255, 255, 255, 0));
 }
 
-/*.cover2 {
-	position: relative;
-	height: 600px;
-	object-fit: cover;	
-	background-image: url(Screenshot_2-5.jpg);
-	background-repeat: no-repeat;
-	background-position: bottom;
-	background-size: cover;
-	
-}
-
-.cover2:before {
-	content: "";
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	height: 100%;
-	width: 100%;
-	background: linear-gradient(to right, rgba(71, 59, 63, 95%), rgba(255, 255, 255, 0));
-}*/
-
-/*-----------------------------------*/
-
 .about {
 	height: 600px;
 }
 
 .about img {
 	margin-top: 125px;
-	margin-left: 260px;
+	/*margin-left: 260px;*/
+	float: right;
 	box-shadow: (9px 9px 14px rgba(0, 0, 0, 0.25));
 }
 
@@ -285,14 +271,15 @@ img {
 	border: 10px solid rgba(229, 229, 229, 0.21);
 }
 
-.galery {
-	height: 850px;
-}
+/*.galery {
+	min-height: 820px; 
+}*/
 
 .galery h3{
 	width: 450px;
-	margin: 50px auto;
-
+	margin: 0 auto;
+	padding-top: 7.957559681697613vh; /*60/7.54*/
+	padding-bottom: 4.641909814323607vh;/*35/7.54*/
 	font-family: Crimson Text;
 	font-size: 32px;
 	align-items: center;
@@ -303,51 +290,49 @@ img {
 }
 
 .galery img {
+	height: auto;
 	filter: drop-shadow(4px 6px 6px rgba(0, 0, 0, 0.25));
 	display: inline-block; 
 	/*transition: all 1s ease;*/
 	padding: 2px;
 }
-.gal-box {
-	margin: auto 100px;
+.gal-box, .gal-box-2 {
+	width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
 }
 .gal-box img {
 	vertical-align: bottom;
 }
 .gal-box-2 {
-	margin: auto 140px;
-	padding-top: 5px;
+	padding-top: 5px; 
+	padding-bottom: 5.305039787798408vh; /*40/7.54*/
 }
 .gal-box-2 img {
 	vertical-align: top;
 }
 .img-1 {
-	width: 356px;
-	height: 290px;
+	width: 25.42857142857143vw; /*356/14*/
 }
 .img-2 {
-	width: 244px;
-	height: 252px;
+	width: 17.42857142857143vw; /*244/14*/
 }
 .img-3 {
-	width: 202px;
-	height: 193px;
+	width: 14.42857142857143vw;/*202/14*/
 }
 .img-4 {
-	width: 264px;
-	height: 268px; 
+	width: 18.85714285714286vw;/*264/14*/
 }
 .img-5 {
-	width: 269px;
-	height: 288px;
+	width: 19.21428571428571vw;/*269/14*/
 }
 .img-6 {
-	width: 276px;
-	height: 234px;
+	width: 19.71428571428571vw;/*276/15.19*/
 }
 .img-7 {
-	width: 448px;
-	height: 274px;
+	width: 32vw;/*448/15.19*/
 }
 
 .contact {
@@ -435,8 +420,6 @@ iframe {
 .feedback h4 {
 	width: 450px;
 	height: 82px;
-	margin-left: 260px;
-	margin-top: 160px;
 
 	font-family: Crimson Text;
 	font-style: normal;
@@ -450,7 +433,6 @@ iframe {
 }
 .feedback p {
 	width: 426px;
-	margin-left: 260px;
 	font-family: Crimson Text;
 	font-style: normal;
 	font-weight: normal;
@@ -459,6 +441,11 @@ iframe {
 	align-items: center;
 
 	color: #473B3F;
+}
+.feed-info {
+	/*margin-left: 260px;*/
+	margin-top: 160px;
+	float: right;
 }
 form {
 	width: 410px;
