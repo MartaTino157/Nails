@@ -1,5 +1,6 @@
 /*1519 × 754*/
 @media (min-width: 1400px){
+	
 	.gal-box {
 		max-width: 1104px !important;		
 	}
@@ -51,5 +52,30 @@
 	}
 	.img-7 {
 		visibility: hidden;
+	}
+}
+
+@media (max-width: 1200px) {
+	.about img {
+		margin-left: 5.129032vw;
+
+	} 
+}
+@media (max-width: 992px) {
+	.about img {
+		margin-top: 90px; 
+		margin-left: 200px; /*200/9.92*/
+		margin-bottom: 20px;
+		width: 400px;
+		height: 400px;
+	} 
+	.about h3, .about p {
+		margin: 0 auto;
+		width: 70.56451612903226vw; /*700/9.92*/
+		padding-left: 0;
+	}
+	.about p {
+		padding-top: 0;
+		padding-bottom: 50px;
 	}
 }
